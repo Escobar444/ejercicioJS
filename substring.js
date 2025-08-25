@@ -28,7 +28,7 @@ rl.question ("ingrese su nombre completo", (form)=>{
     console.log(`su nombre sin espacios es: ${nombSinespacio}`)
     console.log(`la longitud de su nombre sin espacios es: ${longitudNombre}`)
 
-    rl.question (`ingrese su coorreo electronico`, (correo)=>{
+    rl.question (`ingrese su coorreo electronico`, (correo)=>{///////
         const correoSinEspacios = correo.trim();
         const correomin = correo.toLowerCase();
         const dominio = correoSinEspacios.split('@')[1];
@@ -45,7 +45,7 @@ rl.question ("ingrese su nombre completo", (form)=>{
 
     rl.question (`ingrese una frase`, (aparece)=>{
     const frase = aparece.indexOf(`error`)
-    console.log(`la palabra error se ecnuentra en la posicion: ${frase}`);
+    console.log(`la palabra error se ecnuentra en la posicion: ${frase}`);//////////////////
          
    
 
