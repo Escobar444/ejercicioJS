@@ -55,7 +55,9 @@ rl.question("Ingrese la temperatura del primer día:",(temp1)=>{
         temperaturas.push(temp2);
         rl.question("Ingrese la temperatura del tercer día:",(temp3)=>{
             temperaturas.push(temp3);
-            let maxTemp = Math.max(parseFloat(temp1), parseFloat(temp2), parseFloat(temp3));
+            let maxTemp = Math.max((temp1), (temp2), (temp3));
+            let multiplicacion = temp1 * temp2 * temp3;
+            console.log("La multiplicacion de las temperaturas es:", multiplicacion);
             console.log("La temperatura más alta es:", maxTemp);
             rl.close();
 
