@@ -37,6 +37,7 @@ let array = [1,2,3,4,5];
 let N = 2;
 let arrayRotado = [];
 for (let i = 0; i < array.length; i++) {
-    arrayRotado[(i + N) % array.length] = array[i];
+    arrayRotado[(i + N) % array.length] = array[i]; /*me ayuda a rotar el array */
 }
+console.log(`array original:`, array);
 console.log(`array rotado:`, arrayRotado);
