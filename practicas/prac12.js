@@ -40,6 +40,7 @@ function adivinaElnumero(){
                 intentos--;
                 pregunatar();
             }
+            
         })
      }
     pregunatar();
